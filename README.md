@@ -1,5 +1,5 @@
 # FixSpeaker-Y9000X
-
+- 项目源自 [YasuStudio](https://gitee.com/YasuStudio/fix-speaker-y9000x)
 #### 更新记录
 - 2022.01.16 [Sukka 提交PR](https://github.com/acidanthera/AppleALC/pull/755) 修复静音
 
@@ -17,7 +17,7 @@ OC引导`config.plist`配置文件`PciRoot(0x0)/Pci(0x1f,0x3)`项添加：
 
 - 2、安装 ALCPlugFix-Swift 来修复扬声器切换异常问题, 终端使用以下命安装或卸载 ALCPlugFix
 ```bash
-bash -c "$(curl -fsSL https://gitee.com/YasuStudio/fix-speaker-y9000x/raw/master/FixSpeaker-Y9000X.sh)"
+bash -c "$(curl -fsSL https://gitee.com/LoveGlaze/fix-speaker-y9000x/raw/master/FixSpeaker-Y9000X.sh)"
 ```
 
 - 完成。
